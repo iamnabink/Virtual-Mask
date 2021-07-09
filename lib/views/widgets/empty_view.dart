@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:virtual_mask/app_config/ui_assets.dart';
 
 class EmptyView extends StatelessWidget {
-  final String message;
+  final String? message;
   final bool handleError;
   final Function? onErrorFunction;
 
-  const EmptyView({required this.message,this.handleError = false, this.onErrorFunction});
+  const EmptyView({this.message,this.handleError = false, this.onErrorFunction});
 
   @override
   Widget build(BuildContext context) {

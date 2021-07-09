@@ -21,7 +21,6 @@ class NetworkDataWidgetBuilder<T> extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-  result ??= ResponseModal();
   return builder(context, result);
   }
 

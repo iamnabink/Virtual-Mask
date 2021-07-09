@@ -14,7 +14,7 @@ Widget rectangularShimmerView(
     width: width,
     height: height,
     child: ClipRRect(
-      borderRadius: BorderRadius.circular(radius ?? 10),
+      borderRadius: BorderRadius.circular(radius),
       child: Image.asset(
         UIAssets.gifLoading,
         fit: BoxFit.cover,

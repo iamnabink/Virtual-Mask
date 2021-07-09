@@ -1,7 +1,4 @@
 {
-  "api_base_url": "https://api.ktmkart.com/",
-  "client_id": "webapp",
-  "client_secret": "secret",
   "sentry_dsn": "https://d559523431b84a1cb7f630f9e92a3d5b@o553426.ingest.sentry.io/5680660",
   "sh1Key": "9A:81:0E:F3:92:AC:82:0C:DA:DA:29:49:33:8E:6F:FC:23:16:50:70",
   "sh1Base64": "moEO85Ksggza2ilJM45v/CMWUHA="

@@ -1,4 +1,5 @@
 import 'package:get_it/get_it.dart';
+import 'package:virtual_mask/services/in_app_update.dart';
 import 'package:virtual_mask/viewmodel/viewmodel.dart';
 
 final locator = GetIt.instance;
@@ -12,7 +13,6 @@ void setupLocator() {
   // Only the first time you call get<HomeViewModel>() the passed factory function will be called.
   // After that you will always receive the same instance.
   locator.registerSingleton<AppSettingViewModel>(AppSettingViewModel());
-  // locator.registerLazySingleton<AppSettingViewModel>(() => AppSettingViewModel());
   // locator.registerLazySingleton<HomeViewModel>(() => HomeViewModel());
 
 }

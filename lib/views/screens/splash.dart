@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:virtual_mask/app_config/app_colors.dart';
-import 'package:virtual_mask/app_config/ui_assets.dart';
 import 'package:virtual_mask/services/service_locator.dart';
 import 'package:virtual_mask/viewmodel/viewmodel.dart';
 import 'package:flutter/material.dart';
@@ -59,7 +58,7 @@ class _SplashScreenState extends State<SplashScreen>
         body: Center(
           child: FadeTransition(
             opacity: fadeInFadeOut,
-            child: Image.asset(UIAssets.appLogo,width: 200,),
+            child: Image.asset('assets/images/launcher_icon.png',width: 200,),
           ),
         ));
 

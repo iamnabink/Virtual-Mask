@@ -11,11 +11,6 @@ class AuthViewModel extends BaseViewModel {
 
   BehaviorSubject<bool> get isLoginSubject => _isLoginSubject;
 
- /// navigate to login screen
-  void navigateToLoginScreen(BuildContext context){
-    Navigator.pushNamed(context, RouteName.registerIntroScreen);
-  }
-
   // /// to check whether the user is authorized or not
   // Future<bool> isUserAuth() async {
   //   try {

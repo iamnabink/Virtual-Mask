@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561255259070",
+    "project_id": "virtual-mask-839ac",
+    "storage_bucket": "virtual-mask-839ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561255259070:android:1ba782e2be22f7eeddb7ef",
+        "android_client_info": {
+          "package_name": "com.corona.virtualmask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561255259070-5svpm7sq6g809542ggcgncg4vhfrrlfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6J9So-GtV21GXs2XwIP8vlBqTiEaQ0H4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561255259070-5svpm7sq6g809542ggcgncg4vhfrrlfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

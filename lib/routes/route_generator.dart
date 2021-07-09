@@ -1,4 +1,5 @@
 import 'package:virtual_mask/routes/route_name.dart';
+import 'package:virtual_mask/views/screens/home/home.dart';
 import 'package:virtual_mask/views/screens/splash.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +11,9 @@ class RouteGenerator {
       case RouteName.splashRoute:
         return MaterialPageRoute(
             settings: settings, builder: (_) => SplashScreen());
+      case RouteName.homePageRoute:
+        return MaterialPageRoute(
+            settings: settings, builder: (_) => HomeScreen());
       default:
         // If there is no such named route in the switch statement, e.g. /third
         return MaterialPageRoute(
