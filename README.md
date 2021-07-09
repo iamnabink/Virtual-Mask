@@ -5,6 +5,7 @@
 A Virtual Mask app created in flutter using Provider. clone the appropriate branches mentioned below:
 
 * Mobile: https://github.com/iamnabink/Virtual-Mask (stable channel)
+* Google Play: https://play.google.com/store/apps/details?id=com.corona.virtualmask [10k+ downloads]
 
 ## Getting Started
 
