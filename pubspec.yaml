@@ -1,0 +1,137 @@
+name: virtual_mask
+description: Flutter Version Of Virtual Mask Application
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #  Create awesome and powerful modal bottom sheets. Material, Cupertino iOS 13 or create your own style
+  modal_bottom_sheet: ^2.0.0
+
+  #  plugin for discovering the state of the network (WiFi & mobile/cellular) connectivity on Android and iOS.
+  connectivity: ^3.0.6
+  #  A powerful Http client for Dart, which supports Interceptors,
+  #  FormData, Request Cancellation, File Downloading, Timeout etc.
+  dio: ^4.0.0
+  #  A flexible widget for user notification.
+  #  Customize your text, button, duration, animations and much more.
+  #  For Android devs, it is made to replace Snackbars and Toasts.
+  #  flushbar: ^1.10.4
+  another_flushbar: ^1.10.23
+  #  Flutter Secure Storage provides API to store data in secure storage. Keychain is used in iOS, KeyStore based solution is used in Android.
+  flutter_secure_storage: ^4.2.0
+  #  A flutter package for managing different configurations and making them available everythere inside the app.
+  global_configuration: ^2.0.0-nullsafety.1
+  #  Vector design and runtime animation for Flutter.
+  flare_flutter: ^3.0.1
+  #  The Line Awesome Icons pack for flutter. Provides 1542 additional icons to use in your apps.
+  line_awesome_flutter: ^1.1.0-nullsafety
+  #  A flutter implementation of React hooks. It adds a new kind of widget with enhanced code reuse
+  flutter_hooks: ^0.18.0
+
+  another_carousel_pro:
+    git:
+      url: https://github.com/iamnabink/another_carousel_pro.git
+      ref: master
+
+  #  Sentry SDK for Flutter. This package aims to support different Flutter targets by relying on the many platforms supported by Sentry with native SDKs.
+  sentry_flutter: ^5.1.0
+  #  A wrapper around InheritedWidget to make them easier to use and more reusable.
+  provider: ^5.0.0
+  #  Flutter plugin for launching a URL on Android and iOS. Supports web, phone, SMS, and email schemes.
+  url_launcher: ^6.0.9
+
+  #  A Flutter staggered grid view (masonry tiles) which supports multiple columns with rows of varying sizes
+  flutter_staggered_grid_view: ^0.4.0
+  #  a widget provided to the flutter scroll component drop-down refresh and pull up load.
+  pull_to_refresh: ^2.0.0
+
+  #  RxDart is an implementation of the popular reactiveX api for asynchronous programming, leveraging the native Dart Streams api.
+  rxdart: ^0.27.1
+  internet_connection_checker: ^0.0.1+1
+  #  Easily add staggered animations to your ListView, GridView, Column and Row children as shown in Material Design guidelines
+  flutter_staggered_animations: ^1.0.0
+  #  Flutter plugin for Firebase Remote Config. Update your application look and feel and behaviour without re-releasing.
+  firebase_remote_config: ^0.10.0+2
+
+  #  Flutter plugin providing detailed information about the device (make, model, etc.), and Android or iOS version the app is running on.
+  device_info: ^2.0.2
+
+  #  Flutter plugin for querying information about the application package, such as CFBundleVersion on iOS or versionCode on Android.
+  package_info: ^2.0.2
+  #  Simple direct Service Locator that allows to decouple
+  #  the interface from a concrete implementation and to access the concrete implementation from everywhere in your App
+  get_it: ^7.1.3
+  #  The Font Awesome Icon pack available as Flutter Icons.
+  #  Provides 1500 additional icons to use in your apps.
+  font_awesome_flutter: ^9.1.0
+  #  Toast Library for Flutter, Easily create toast messages in single line of code
+  fluttertoast: ^8.0.7
+  #  library to load and cache network images. Can also be used with placeholder and error widgets.
+  cached_network_image: ^3.0.0
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  #  Extension for Hive. Makes it easier to use Hive in Flutter apps.
+  hive_flutter: ^1.1.0
+
+  #  Lightweight and blazing fast key-value database written in pure Dart. Strongly encrypted using AES-256.
+  hive: ^2.0.4
+  #  Approximate how your Flutter app looks and performs on another device.
+  device_preview: ^0.7.1
+
+  #  Contains code to deal with internationalized/localized messages,
+  #  date and number formatting and parsing, bi-directional text, and other internationalization issues.
+  intl: ^0.17.0
+#to change app launcher icon add following section
+
+flutter_icons:
+  image_path: "assets/images/launcher_icon.png"
+  android: true
+  ios: true
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #The implementation of the lint rules supported by the analyzer framework. This package is not intended to be used directly.
+  linter: ^1.7.0
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/flares/
+    - assets/images/
+    - assets/gif/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+        #          weight: 500
+        - asset: assets/fonts/Roboto-Regular.ttf
+#          weight: 400
