@@ -4,7 +4,7 @@
 
 A Virtual Mask app created in flutter using Provider. clone the appropriate branches mentioned below:
 
-* Mobile: https://gitlab.com/nabraj-sit/ktmkart.git (stable channel)
+* Mobile: https://github.com/iamnabink/Virtual-Mask (stable channel)
 
 ## Getting Started
 
@@ -276,5 +276,5 @@ I will be happy to answer any questions that you may have on this approach, and 
 Again to note, this is not a best and final version, you are always invited to edit and suggest changes, please make pull request to make changes this readme.
 
 Author:
-    Nabraj Khadka
+    Nabraj Khadka - Github [https://github.com/iamnabink]
 
